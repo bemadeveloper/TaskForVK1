@@ -56,8 +56,7 @@
 		D756638F2CFB6FF5004EE409 /* TaskForVK1 */ = {
 			isa = PBXGroup;
 			children = (
-				D75663902CFB6FF5004EE409 /* AppDelegate.swift */,
-				D75663922CFB6FF5004EE409 /* SceneDelegate.swift */,
+				D75663A62CFB7111004EE409 /* App */,
 				D75663942CFB6FF5004EE409 /* ViewController.swift */,
 				D75663962CFB6FF5004EE409 /* Main.storyboard */,
 				D75663992CFB6FF7004EE409 /* Assets.xcassets */,
@@ -65,6 +64,15 @@
 				D756639E2CFB6FF7004EE409 /* Info.plist */,
 			);
 			path = TaskForVK1;
+			sourceTree = "<group>";
+		};
+		D75663A62CFB7111004EE409 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D75663902CFB6FF5004EE409 /* AppDelegate.swift */,
+				D75663922CFB6FF5004EE409 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
