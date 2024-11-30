@@ -9,4 +9,8 @@ import Foundation
 
 struct Owner: Codable {
     let avatarUrl: String
+
+    enum CodingKeys: String, CodingKey {
+        case avatarUrl = "avatar_url"
+    }
 }
